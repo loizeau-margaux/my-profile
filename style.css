@@ -1,0 +1,96 @@
+body {
+	background-color:blank ;   
+	color: darkgrey;                   
+	font-family: 'Source Sans Pro', sans-serif ;
+	font-size: 18px ;
+	font-weight: 600 ;
+}
+
+    h1, h2, h3{
+	font-family: 'Roboto', sans-serif;
+}
+    h1 {
+	color: purple ;          
+	font-size: 32px ;
+	font-weight:900 ;
+}
+    h2 {
+	color: purple	;       
+	font-size: 25px ;
+	font-weight: lighter ;
+	font-weight: 500 ;
+    }
+
+    a{
+	font-family:'Roboto', sans-serif;    
+	text-decoration: none;
+	color: white ;
+	font-weight: bolder;
+	font-size: 12px ;
+    }
+
+
+
+    .container {
+	width: 700px;
+	margin:40px auto ;
+	text-align: center;
+    }
+
+
+    @media (max-width: 760px ) {
+	.container{
+		width: 600px;
+	}
+    }
+
+    @media (max-width: 500px ) {
+	.container{
+		width: 460px;
+	}
+    }
+
+    .card-white {
+	background-color: white ;
+	padding: 25px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2) ;
+	border-radius: 10px;
+	margin: 20px 0px;
+	text-align: center;
+    }
+
+    .img-circle {
+	border-radius: 50%;
+    }
+
+
+    .list-inline {
+	list-style: none;
+	padding-left: 0px;
+    }
+    .list-inline li {
+	display: inline;
+	padding: 10px;
+    }
+    .list-inline i{
+	font-size: 50px;
+	color: hotpink;            
+    }
+    .list-inline i:hover{
+	color: black;          
+    }
+
+    .buton {
+    	background-color: blank;
+    	color: hotpink;
+    	padding: 15px 20px;
+    	border-radius: 4px;
+    	text-align: center;
+    	margin: 16px;
+    }
+
+    .buton: hover {
+    	background-color: black;
+    	color: hotpink;
+    }
+
